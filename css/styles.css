@@ -9,11 +9,54 @@
   --logo-web-color: #4d5ae5;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #ffffff;
   color: #434455;
+}
+
+.container {
+  width: 1158px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .list {
@@ -26,7 +69,13 @@ body {
 
 /*--Header--*/
 .header {
-  color: var(--main-text-footer-background-color);
+}
+
+.heder-container {
+  background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .heder-nav {
 }
@@ -99,6 +148,10 @@ body {
   background-color: var(--footer-background-color);
 }
 
+.container-hero {
+  width: 1440px;
+}
+
 .title-hero {
   font-family: "Roboto";
   font-style: normal;
@@ -108,6 +161,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-btn {
@@ -120,7 +177,10 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 0, auto;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
@@ -129,6 +189,14 @@ body {
 /*Our goals section*/
 
 .title {
+}
+
+.container-our-goals {
+  width: 1158px;
+  padding-left: 15;
+  padding-right: 15px;
+  margin-top: 120px;
+  margin-bottom: 0;
 }
 
 .item-goals {
